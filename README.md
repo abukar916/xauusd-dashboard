@@ -80,8 +80,4 @@ pytest
 - Ticks are held in memory only; there is no persistence or historical data.
 - The real model and live APIs are not exercised by the tests.
 
-## Possible next steps
 
-- Swap in FinBERT and compare against the default.
-- Persist ticks to SQLite/Parquet and add candlestick aggregation.
-- Add a stale-data indicator and automatic reconnect with backoff.
